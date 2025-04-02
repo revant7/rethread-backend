@@ -3,6 +3,7 @@ from rest_framework import status, permissions
 from .models import Product, Customer, Address, Cart, CartItem
 from . import models
 from django.contrib.auth import authenticate
+from django.shortcuts import redirect
 from rest_framework_simplejwt.tokens import RefreshToken
 from django.contrib.auth import get_user_model
 from django.http import HttpResponse, JsonResponse
@@ -15,6 +16,11 @@ from nltk.corpus import stopwords
 
 # Create your views here.
 User = get_user_model()
+
+
+@permission_classes([permissions.AllowAny])
+def index(request):
+    return redirect("/swagger")
 
 
 @api_view(["POST"])
