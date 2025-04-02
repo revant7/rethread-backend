@@ -1,6 +1,6 @@
-# Trezora - Backend
+# Rethread - Backend
 
-Welcome to the backend of **Trezora**! This backend is powered by **Django** to provide robust and scalable server-side functionalities for the e-commerce platform.
+Welcome to the backend of **Rethread**! This backend is powered by **Django** to provide robust and scalable server-side functionalities for the e-commerce platform.
 
 ## 🚀 Features
 
@@ -20,12 +20,12 @@ Welcome to the backend of **Trezora**! This backend is powered by **Django** to 
 
 1. **Clone the repository:**  
     ```bash
-    git clone https://github.com/YOUR_GITHUB_USERNAME/trezora-backend.git
+    git clone https://github.com/YOUR_GITHUB_USERNAME/Rethread-backend.git
     ```
 
 2. **Navigate to the project directory:**  
     ```bash
-    cd trezora-backend
+    cd Rethread-backend
     ```
 
 3. **Create a virtual environment and activate it:**  
